@@ -1,0 +1,130 @@
+body{
+    align-items: center;
+    background: rgba(179,220,237,1);
+background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
+background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+}
+.corpoi{
+    -webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border-top:500px;
+    width:300px;
+    height: ;
+    -webkit-box-shadow: 24px 13px 55px 22px rgba(0,0,0,0.55);
+-moz-box-shadow: 24px 13px 55px 22px rgba(0,0,0,0.55);
+box-shadow: 24px 13px 55px 22px rgba(0,0,0,0.55);
+
+    background: rgba(132,173,189,1);
+    background: -moz-linear-gradient(left, rgba(132,173,189,1) 0%, rgba(41,184,229,0.68) 50%, rgba(115,152,166,0.36) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(132,173,189,1)), color-stop(50%, rgba(41,184,229,0.68)), color-stop(100%, rgba(115,152,166,0.36)));
+    background: -webkit-linear-gradient(left, rgba(132,173,189,1) 0%, rgba(41,184,229,0.68) 50%, rgba(115,152,166,0.36) 100%);
+    background: -o-linear-gradient(left, rgba(132,173,189,1) 0%, rgba(41,184,229,0.68) 50%, rgba(115,152,166,0.36) 100%);
+    background: -ms-linear-gradient(left, rgba(132,173,189,1) 0%, rgba(41,184,229,0.68) 50%, rgba(115,152,166,0.36) 100%);
+    background: linear-gradient(to right, rgba(132,173,189,1) 0%, rgba(41,184,229,0.68) 50%, rgba(115,152,166,0.36) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84adbd', endColorstr='#7398a6', GradientType=1 );
+}
+.top_border{
+
+    -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+    border-bottom: 300px;
+    width:300px;
+    height:50px;
+    -webkit-box-shadow: 24px 13px 55px 22px rgba(0,0,0,0.55);
+-moz-box-shadow: 24px 13px 55px 22px rgba(0,0,0,0.55);
+box-shadow: 24px 13px 55px 22px rgba(0,0,0,0.55);
+
+    background: rgba(132,173,189,1);
+    background: -moz-linear-gradient(left, rgba(132,173,189,1) 0%, rgba(41,184,229,0.68) 50%, rgba(115,152,166,0.36) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(132,173,189,1)), color-stop(50%, rgba(41,184,229,0.68)), color-stop(100%, rgba(115,152,166,0.36)));
+    background: -webkit-linear-gradient(left, rgba(132,173,189,1) 0%, rgba(41,184,229,0.68) 50%, rgba(115,152,166,0.36) 100%);
+    background: -o-linear-gradient(left, rgba(132,173,189,1) 0%, rgba(41,184,229,0.68) 50%, rgba(115,152,166,0.36) 100%);
+    background: -ms-linear-gradient(left, rgba(132,173,189,1) 0%, rgba(41,184,229,0.68) 50%, rgba(115,152,166,0.36) 100%);
+    background: linear-gradient(to right, rgba(132,173,189,1) 0%, rgba(41,184,229,0.68) 50%, rgba(115,152,166,0.36) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84adbd', endColorstr='#7398a6', GradientType=1 );
+}
+.pedido1{
+    -webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+.pedido2{
+    -webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+.pedido3{
+    -webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+.corpoi2{
+    text-align: left;
+    width:200px ;
+    height: 200px;
+}
+main{
+    border-top: 100px;
+}
+/* From uiverse.io by @adamgiebl */
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+   button:hover span {
+    transform: translateX(5em);
+   }
+   
+   button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+   
+   
